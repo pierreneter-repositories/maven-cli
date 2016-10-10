@@ -1,6 +1,6 @@
 {
   "name": "maven-cli",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Install Apache Maven (Java Project Manager) from NPM",
   "mavenVersion": "3.3.9",
   "main": "index.js",
