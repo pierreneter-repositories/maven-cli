@@ -1,0 +1,37 @@
+{
+  "name": "maven-cli",
+  "version": "0.0.1",
+  "description": "Install Apache Maven (Java Project Manager) from NPM",
+  "mavenVersion": "3.3.9",
+  "main": "index.js",
+  "dependencies": {
+    "exec": "^0.2.1",
+    "extract-zip": "^1.5.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "mvn": "./bin/mvn.js",
+    "mvnDebug": "./bin/mvnDebug.js",
+    "mvnyjp": "./bin/mvnyjp.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pierreneter/maven-cli.git"
+  },
+  "engines": {
+    "node": ">0.10.1"
+  },
+  "keywords": [
+    "cli",
+    "maven"
+  ],
+  "author": "PierreNeter",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pierreneter/maven-cli/issues"
+  },
+  "homepage": "https://github.com/pierreneter/maven-cli#readme"
+}
