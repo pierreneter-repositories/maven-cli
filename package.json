@@ -5,7 +5,6 @@
   "mavenVersion": "3.3.9",
   "main": "index.js",
   "dependencies": {
-    "exec": "^0.2.1",
     "extract-zip": "^1.5.0"
   },
   "devDependencies": {},
