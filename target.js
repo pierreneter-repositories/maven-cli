@@ -5,7 +5,7 @@ const http = require("http");
 var extract = require('extract-zip');
 
 let defaultUrl = `http://www-us.apache.org/dist/maven/maven-3/${config.mavenVersion}/binaries/apache-maven-${config.mavenVersion}-bin.zip`;
-let fileZipName = path.join('src', `apache-maven-${config.mavenVersion}-bin.zip`);
+let fileZipName = path.resolve(__dirname, 'src', `apache-maven-${config.mavenVersion}-bin.zip`);
 let target = exports;
 target.home = process.env.HOME || process.env.USERPROFILE;
 target.home += '/.maven';
